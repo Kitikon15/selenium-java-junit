@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.LoginTest" time="3.723" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.AuthTest" time="15.526" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TH"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/technology07/Desktop/selenium-java-junit/demo/target/surefire/surefirebooter-20260917120115838_3.jar /Users/technology07/Desktop/selenium-java-junit/demo/target/surefire 2026-09-17T12-01-15_805-jvmRun1 surefire-20260917120115838_1tmp surefire_0-20260917120115838_2tmp"/>
+    <property name="sun.java.command" value="/Users/technology07/Desktop/selenium-java-junit/demo/target/surefire/surefirebooter-20260917120010789_3.jar /Users/technology07/Desktop/selenium-java-junit/demo/target/surefire 2026-09-17T12-00-10_758-jvmRun1 surefire-20260917120010789_1tmp surefire_0-20260917120010789_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/technology07/Desktop/selenium-java-junit/demo/target/test-classes:/Users/technology07/Desktop/selenium-java-junit/demo/target/classes:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.0/selenium-java-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.0/selenium-api-4.28.0.jar:/Users/technology07/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.0/selenium-chrome-driver-4.28.0.jar:/Users/technology07/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.0/selenium-chromium-driver-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.0/selenium-json-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.0/selenium-manager-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.0/selenium-devtools-v130-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.0/selenium-devtools-v131-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.0/selenium-devtools-v132-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.0/selenium-devtools-v85-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.0/selenium-edge-driver-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.0/selenium-firefox-driver-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.0/selenium-http-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.0/selenium-ie-driver-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.0/selenium-remote-driver-4.28.0.jar:/Users/technology07/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/technology07/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/technology07/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/technology07/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/technology07/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/technology07/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/technology07/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/technology07/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/technology07/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.0/selenium-os-4.28.0.jar:/Users/technology07/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.0/selenium-safari-driver-4.28.0.jar:/Users/technology07/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.0/selenium-support-4.28.0.jar:/Users/technology07/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/Users/technology07/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/Users/technology07/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/technology07/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/Users/technology07/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/technology07/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/Users/technology07/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/Users/technology07/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/technology07/Desktop/selenium-java-junit/demo/target/surefire/surefirebooter-20260917120115838_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/technology07/Desktop/selenium-java-junit/demo/target/surefire/surefirebooter-20260917120010789_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -60,7 +60,25 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shouldShowErrorMessageWhenLoginFails" classname="com.example.LoginTest" time="1.351">
+  <testcase name="shouldShowErrorWhenUsernameIsEmpty" classname="com.example.AuthTest" time="1.007">
+    <system-out><![CDATA[Username is required.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldHidePasswordInput" classname="com.example.AuthTest" time="0.911">
+    <system-out><![CDATA[Password field is hidden.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldShowErrorMessageWhenLoginFails" classname="com.example.AuthTest" time="0.998">
     <system-out><![CDATA[Login failed message: Simple Login Testing Page
 Invalid Username!
 Username
@@ -70,20 +88,38 @@ Sign in
 For Login Information, See:
 seleniumbase.io/simple/signup
 ]]></system-out>
-    <system-err><![CDATA[Sep 17, 2026 12:01:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 17, 2026 12:00:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 152
-Sep 17, 2026 12:01:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Sep 17, 2026 12:00:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="shouldLoginSuccessfully" classname="com.example.LoginTest" time="1.247">
-    <system-err><![CDATA[Sep 17, 2026 12:01:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="shouldLoginSuccessfully" classname="com.example.AuthTest" time="1.199">
+    <system-err><![CDATA[Sep 17, 2026 12:00:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 152
-Sep 17, 2026 12:01:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Sep 17, 2026 12:00:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="shouldShowErrorWhenPasswordIsEmpty" classname="com.example.LoginTest" time="1.118">
+  <testcase name="shouldHavePasswordField" classname="com.example.AuthTest" time="0.928">
+    <system-out><![CDATA[Password field is displayed.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldHaveUsernameField" classname="com.example.AuthTest" time="1.046">
+    <system-out><![CDATA[Username field is displayed.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldShowErrorWhenPasswordIsEmpty" classname="com.example.AuthTest" time="0.952">
     <system-out><![CDATA[Validation message: Simple Login Testing Page
 The Password is Required!
 Username
@@ -93,9 +129,54 @@ Sign in
 For Login Information, See:
 seleniumbase.io/simple/signup
 ]]></system-out>
-    <system-err><![CDATA[Sep 17, 2026 12:01:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 17, 2026 12:00:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 152
-Sep 17, 2026 12:01:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Sep 17, 2026 12:00:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldShowErrorWhenPasswordIsWrong" classname="com.example.AuthTest" time="1.018">
+    <system-out><![CDATA[Username is correct, but password is incorrect.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldShowErrorWhenPasswordIsWrongAgain" classname="com.example.AuthTest" time="1.094">
+    <system-out><![CDATA[Login failed: Username is correct but Password is wrong.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotLoginWhenBothFieldsAreEmpty" classname="com.example.AuthTest" time="0.906">
+    <system-out><![CDATA[Login blocked when both fields are empty.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotLoginWhenPasswordContainsOnlySpaces" classname="com.example.AuthTest" time="1.156">
+    <system-out><![CDATA[Login blocked when password contains only spaces.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotLoginWhenUsernameContainsOnlySpaces" classname="com.example.AuthTest" time="4.307">
+    <system-out><![CDATA[Login blocked when username contains only spaces.
+]]></system-out>
+    <system-err><![CDATA[Sep 17, 2026 12:00:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 152
+Sep 17, 2026 12:00:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 152.0.7977.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
